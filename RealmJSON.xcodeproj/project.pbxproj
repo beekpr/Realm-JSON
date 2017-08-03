@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A0B1A4731F3380D7003155C1 /* RealmJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4711F3380D7003155C1 /* RealmJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0B1A4851F33813A003155C1 /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4791F33813A003155C1 /* MCJSONDateTransformer.h */; };
+		A0B1A4851F33813A003155C1 /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4791F33813A003155C1 /* MCJSONDateTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A4861F33813A003155C1 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47A1F33813A003155C1 /* MCJSONDateTransformer.m */; };
-		A0B1A4871F33813A003155C1 /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47B1F33813A003155C1 /* MCJSONNonNullStringTransformer.h */; };
+		A0B1A4871F33813A003155C1 /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47B1F33813A003155C1 /* MCJSONNonNullStringTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A4881F33813A003155C1 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47C1F33813A003155C1 /* MCJSONNonNullStringTransformer.m */; };
-		A0B1A4891F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47D1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h */; };
+		A0B1A4891F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47D1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A48A1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47E1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m */; };
-		A0B1A48B1F33813A003155C1 /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47F1F33813A003155C1 /* MCJSONValueTransformer.h */; };
+		A0B1A48B1F33813A003155C1 /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47F1F33813A003155C1 /* MCJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A48C1F33813A003155C1 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4801F33813A003155C1 /* MCJSONValueTransformer.m */; };
-		A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4811F33813A003155C1 /* RLMObject+Copying.h */; };
+		A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4811F33813A003155C1 /* RLMObject+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A48E1F33813A003155C1 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4821F33813A003155C1 /* RLMObject+Copying.m */; };
-		A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4831F33813A003155C1 /* RLMObject+JSON.h */; };
+		A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4831F33813A003155C1 /* RLMObject+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B1A4901F33813A003155C1 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4841F33813A003155C1 /* RLMObject+JSON.m */; };
 		A0B1A4B31F338702003155C1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B1A4A41F3386DD003155C1 /* Realm.framework */; };
 /* End PBXBuildFile section */
@@ -174,12 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B1A4851F33813A003155C1 /* MCJSONDateTransformer.h in Headers */,
-				A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */,
 				A0B1A4891F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h in Headers */,
-				A0B1A4731F3380D7003155C1 /* RealmJSON.h in Headers */,
+				A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */,
+				A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */,
 				A0B1A48B1F33813A003155C1 /* MCJSONValueTransformer.h in Headers */,
 				A0B1A4871F33813A003155C1 /* MCJSONNonNullStringTransformer.h in Headers */,
-				A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */,
+				A0B1A4731F3380D7003155C1 /* RealmJSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
