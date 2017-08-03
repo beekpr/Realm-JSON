@@ -10,6 +10,8 @@
 
 #import <Realm/RLMProperty.h>
 #import <Realm/RLMObjectSchema.h>
+#import "MCJSONDateTransformer.h"
+#import "MCJSONValueTransformer.h"
 
 // RLMSchema private interface
 @interface RLMSchema ()

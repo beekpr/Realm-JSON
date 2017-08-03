@@ -6,9 +6,7 @@
 //  Copyright (c) 2014 Matthew Cheok. All rights reserved.
 //
 
-@import Realm;
-#import "MCJSONDateTransformer.h"
-#import "MCJSONValueTransformer.h"
+#import <Realm/Realm.h>
 
 @interface RLMObject (JSON)
 

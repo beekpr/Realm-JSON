@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Getting Real. All rights reserved.
 //
 
-@import Realm;
+#import <Realm/Realm.h>
 
 @interface RLMObject (Copying)
 

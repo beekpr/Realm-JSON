@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import Realm;
+#import <Realm/Realm.h>
 
 @interface MCJSONPrimaryKeyTransformer : NSValueTransformer
 
