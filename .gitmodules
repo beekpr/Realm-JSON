@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/Realm"]
+	path = Carthage/Checkouts/Realm
+	url = git@github.com:realm/realm-cocoa.git
