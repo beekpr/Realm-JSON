@@ -22,7 +22,7 @@
 - (id)primaryKeyValue;
 + (id)primaryKeyValueFromJSONDictionary:(NSDictionary *)dictionary;
 
-- (void)performInTransaction:(void (^)(void))transaction;
+- (void)performInTransaction:(__attribute__((noescape)) void(^)(void))transaction;
 - (void)removeFromRealm;
 
 @end
