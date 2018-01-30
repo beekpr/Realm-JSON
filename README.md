@@ -16,13 +16,11 @@ A concise [Mantle](https://github.com/Mantle/Mantle)-like way of working with [R
 
 ## Installation
 
-Add the following to your [CocoaPods](http://cocoapods.org/) Podfile
+Add the following to your `Cartfile` ([Carthage](http://cocoapods.org/)) file
 
-    pod 'Realm+JSON', '~> 0.2'
-
-or clone as a git submodule,
-
-or just copy files in the ```Realm+JSON``` folder into your project.
+```
+github "beekpr/Realm-JSON"
+```
 
 ## Using Realm+JSON
 
@@ -152,6 +150,14 @@ Methods `- shallowCopy` and `- mergePropertiesFromObject:` are provided. The lat
     }];
 
 Additionally, method `- deepCopy` is provided. Unlike `- shallowCopy`, it maintains the object's primary key.
+
+## Create a new version
+Apply your changes, and as soon as you are done, create a new binary framework version. The commands are:
+```
+carthage build --no-skip-current
+carthage archive RealmJSON
+```
+Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
 
 ## License
 
