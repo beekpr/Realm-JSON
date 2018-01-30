@@ -15,5 +15,9 @@ FOUNDATION_EXPORT double RealmJSONVersionNumber;
 FOUNDATION_EXPORT const unsigned char RealmJSONVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <RealmJSON/PublicHeader.h>
-
-
+#import <RealmJSON/RLMObject+Copying.h>
+#import <RealmJSON/RLMObject+JSON.h>
+#import <RealmJSON/MCJSONDateTransformer.h>
+#import <RealmJSON/MCJSONNonNullStringTransformer.h>
+#import <RealmJSON/MCJSONPrimaryKeyTransformer.h>
+#import <RealmJSON/MCJSONValueTransformer.h>

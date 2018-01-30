@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A0F21A0F2020B8DB0058985A /* RealmJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A0D2020B8DB0058985A /* RealmJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A152020B9610058985A /* MCJSONNonNullStringTransformer.h */; };
+		A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A152020B9610058985A /* MCJSONNonNullStringTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F21A1E2020B9620058985A /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A162020B9610058985A /* MCJSONDateTransformer.m */; };
-		A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A172020B9610058985A /* MCJSONDateTransformer.h */; };
+		A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A172020B9610058985A /* MCJSONDateTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F21A202020B9620058985A /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A182020B9610058985A /* MCJSONPrimaryKeyTransformer.m */; };
 		A0F21A212020B9620058985A /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A192020B9620058985A /* MCJSONNonNullStringTransformer.m */; };
-		A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1A2020B9620058985A /* MCJSONValueTransformer.h */; };
+		A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1A2020B9620058985A /* MCJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F21A232020B9620058985A /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A1B2020B9620058985A /* MCJSONValueTransformer.m */; };
-		A0F21A242020B9620058985A /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1C2020B9620058985A /* MCJSONPrimaryKeyTransformer.h */; };
-		A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A252020B96A0058985A /* RLMObject+JSON.h */; };
+		A0F21A242020B9620058985A /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1C2020B9620058985A /* MCJSONPrimaryKeyTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A252020B96A0058985A /* RLMObject+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F21A2A2020B96B0058985A /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A262020B96A0058985A /* RLMObject+Copying.m */; };
 		A0F21A2B2020B96B0058985A /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A272020B96A0058985A /* RLMObject+JSON.m */; };
-		A0F21A2C2020B96B0058985A /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A282020B96B0058985A /* RLMObject+Copying.h */; };
+		A0F21A2C2020B96B0058985A /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A282020B96B0058985A /* RLMObject+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F21A2F2020CEC30058985A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F21A2E2020CEC30058985A /* Realm.framework */; };
 		A0F21A312020CED10058985A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F21A302020CED10058985A /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
@@ -111,13 +111,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */,
-				A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */,
-				A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */,
-				A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */,
-				A0F21A0F2020B8DB0058985A /* RealmJSON.h in Headers */,
 				A0F21A2C2020B96B0058985A /* RLMObject+Copying.h in Headers */,
+				A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */,
+				A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */,
 				A0F21A242020B9620058985A /* MCJSONPrimaryKeyTransformer.h in Headers */,
+				A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */,
+				A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */,
+				A0F21A0F2020B8DB0058985A /* RealmJSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
