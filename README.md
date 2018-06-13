@@ -6,6 +6,19 @@ Realm+JSON ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 A concise [Mantle](https://github.com/Mantle/Mantle)-like way of working with [Realm](https://github.com/realm/realm-cocoa) and JSON.
 
+## Create a new version (Beekeeper related)
+Apply your changes, and as soon as you are done, create a new binary framework version. The commands are:
+```
+git checkout carthage
+# Pull and build Realm first
+carthage update --platform iOS
+# Afterwards build a new version of the this framework
+carthage build --no-skip-current
+carthage archive RealmJSON
+```
+Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
+
+
 ## Breaking Change
 
 - Method `- deepCopy` replaces the previous functionality of `- shallowCopy`, which no longer maintains an object's primary key
