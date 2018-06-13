@@ -6,6 +6,19 @@ Realm+JSON ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 A concise [Mantle](https://github.com/Mantle/Mantle)-like way of working with [Realm](https://github.com/realm/realm-cocoa) and JSON.
 
+## Create a new version (Beekeeper related)
+Apply your changes, and as soon as you are done, create a new binary framework version. The commands are:
+```
+git checkout carthage
+# Pull and build Realm first
+carthage update --platform iOS
+# Afterwards build a new version of the this framework
+carthage build --no-skip-current
+carthage archive RealmJSON
+```
+Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
+
+
 ## Breaking Change
 
 - Method `- deepCopy` replaces the previous functionality of `- shallowCopy`, which no longer maintains an object's primary key
@@ -16,11 +29,13 @@ A concise [Mantle](https://github.com/Mantle/Mantle)-like way of working with [R
 
 ## Installation
 
-Add the following to your `Cartfile` ([Carthage](http://cocoapods.org/)) file
+Add the following to your [CocoaPods](http://cocoapods.org/) Podfile
 
-```
-github "beekpr/Realm-JSON"
-```
+    pod 'Realm+JSON', '~> 0.2'
+
+or clone as a git submodule,
+
+or just copy files in the ```Realm+JSON``` folder into your project.
 
 ## Using Realm+JSON
 
@@ -150,14 +165,6 @@ Methods `- shallowCopy` and `- mergePropertiesFromObject:` are provided. The lat
     }];
 
 Additionally, method `- deepCopy` is provided. Unlike `- shallowCopy`, it maintains the object's primary key.
-
-## Create a new version
-Apply your changes, and as soon as you are done, create a new binary framework version. The commands are:
-```
-carthage build --no-skip-current
-carthage archive RealmJSON
-```
-Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
 
 ## License
 
