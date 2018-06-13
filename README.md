@@ -11,7 +11,7 @@ Apply your changes, and as soon as you are done, create a new binary framework v
 ```
 git checkout carthage
 # Afterwards build a new version of the this framework
-carthage build --no-skip-current
+carthage build --no-skip-current --platform iOS
 carthage archive RealmJSON
 ```
 Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
