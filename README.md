@@ -12,6 +12,13 @@ Apply your changes, and as soon as you are done, create a new binary framework v
 git checkout carthage
 # Afterwards build a new version of the this framework
 carthage build --no-skip-current --platform iOS
+# Remove all *.framework and *.framework.dSYM inside the Carthage/Build/iOS folder
+# TODO: Automate this
+rm Carthage/Build/iOS/Realm.framework
+rm Carthage/Build/iOS/Realm.framework.dSYM
+rm Carthage/Build/iOS/RealmSwift.framework
+rm Carthage/Build/iOS/RealmSwift.framework.dSYM
+# Package
 carthage archive RealmJSON
 ```
 Push the changes to GitHub and create a new version. Attach the binary to the new release. Done.
