@@ -3,136 +3,135 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0F21A0F2020B8DB0058985A /* RealmJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A0D2020B8DB0058985A /* RealmJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A152020B9610058985A /* MCJSONNonNullStringTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A1E2020B9620058985A /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A162020B9610058985A /* MCJSONDateTransformer.m */; };
-		A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A172020B9610058985A /* MCJSONDateTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A202020B9620058985A /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A182020B9610058985A /* MCJSONPrimaryKeyTransformer.m */; };
-		A0F21A212020B9620058985A /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A192020B9620058985A /* MCJSONNonNullStringTransformer.m */; };
-		A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1A2020B9620058985A /* MCJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A232020B9620058985A /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A1B2020B9620058985A /* MCJSONValueTransformer.m */; };
-		A0F21A242020B9620058985A /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A1C2020B9620058985A /* MCJSONPrimaryKeyTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A252020B96A0058985A /* RLMObject+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A2A2020B96B0058985A /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A262020B96A0058985A /* RLMObject+Copying.m */; };
-		A0F21A2B2020B96B0058985A /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F21A272020B96A0058985A /* RLMObject+JSON.m */; };
-		A0F21A2C2020B96B0058985A /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F21A282020B96B0058985A /* RLMObject+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F21A2F2020CEC30058985A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F21A2E2020CEC30058985A /* Realm.framework */; };
-		A0F21A312020CED10058985A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F21A302020CED10058985A /* RealmSwift.framework */; };
+		A05097E120D165230019872A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05097DF20D165230019872A /* RealmSwift.framework */; };
+		A05097E220D165230019872A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05097E020D165230019872A /* Realm.framework */; };
+		A0B1A4731F3380D7003155C1 /* RealmJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4711F3380D7003155C1 /* RealmJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A4851F33813A003155C1 /* MCJSONDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4791F33813A003155C1 /* MCJSONDateTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A4861F33813A003155C1 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47A1F33813A003155C1 /* MCJSONDateTransformer.m */; };
+		A0B1A4871F33813A003155C1 /* MCJSONNonNullStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47B1F33813A003155C1 /* MCJSONNonNullStringTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A4881F33813A003155C1 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47C1F33813A003155C1 /* MCJSONNonNullStringTransformer.m */; };
+		A0B1A4891F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47D1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A48A1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A47E1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m */; };
+		A0B1A48B1F33813A003155C1 /* MCJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A47F1F33813A003155C1 /* MCJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A48C1F33813A003155C1 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4801F33813A003155C1 /* MCJSONValueTransformer.m */; };
+		A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4811F33813A003155C1 /* RLMObject+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A48E1F33813A003155C1 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4821F33813A003155C1 /* RLMObject+Copying.m */; };
+		A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1A4831F33813A003155C1 /* RLMObject+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B1A4901F33813A003155C1 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1A4841F33813A003155C1 /* RLMObject+JSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0F21A0A2020B8DB0058985A /* RealmJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0F21A0D2020B8DB0058985A /* RealmJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmJSON.h; sourceTree = "<group>"; };
-		A0F21A0E2020B8DB0058985A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0F21A152020B9610058985A /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
-		A0F21A162020B9610058985A /* MCJSONDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONDateTransformer.m; sourceTree = "<group>"; };
-		A0F21A172020B9610058985A /* MCJSONDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONDateTransformer.h; sourceTree = "<group>"; };
-		A0F21A182020B9610058985A /* MCJSONPrimaryKeyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONPrimaryKeyTransformer.m; sourceTree = "<group>"; };
-		A0F21A192020B9620058985A /* MCJSONNonNullStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONNonNullStringTransformer.m; sourceTree = "<group>"; };
-		A0F21A1A2020B9620058985A /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
-		A0F21A1B2020B9620058985A /* MCJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONValueTransformer.m; sourceTree = "<group>"; };
-		A0F21A1C2020B9620058985A /* MCJSONPrimaryKeyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONPrimaryKeyTransformer.h; sourceTree = "<group>"; };
-		A0F21A252020B96A0058985A /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
-		A0F21A262020B96A0058985A /* RLMObject+Copying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Copying.m"; sourceTree = "<group>"; };
-		A0F21A272020B96A0058985A /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
-		A0F21A282020B96B0058985A /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
-		A0F21A2E2020CEC30058985A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		A0F21A302020CED10058985A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A05097DF20D165230019872A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A05097E020D165230019872A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A0B1A46E1F3380D7003155C1 /* RealmJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B1A4711F3380D7003155C1 /* RealmJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmJSON.h; sourceTree = "<group>"; };
+		A0B1A4721F3380D7003155C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B1A4791F33813A003155C1 /* MCJSONDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONDateTransformer.h; sourceTree = "<group>"; };
+		A0B1A47A1F33813A003155C1 /* MCJSONDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONDateTransformer.m; sourceTree = "<group>"; };
+		A0B1A47B1F33813A003155C1 /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
+		A0B1A47C1F33813A003155C1 /* MCJSONNonNullStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONNonNullStringTransformer.m; sourceTree = "<group>"; };
+		A0B1A47D1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONPrimaryKeyTransformer.h; sourceTree = "<group>"; };
+		A0B1A47E1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONPrimaryKeyTransformer.m; sourceTree = "<group>"; };
+		A0B1A47F1F33813A003155C1 /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
+		A0B1A4801F33813A003155C1 /* MCJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONValueTransformer.m; sourceTree = "<group>"; };
+		A0B1A4811F33813A003155C1 /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
+		A0B1A4821F33813A003155C1 /* RLMObject+Copying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Copying.m"; sourceTree = "<group>"; };
+		A0B1A4831F33813A003155C1 /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
+		A0B1A4841F33813A003155C1 /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0F21A062020B8DB0058985A /* Frameworks */ = {
+		A0B1A46A1F3380D7003155C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F21A312020CED10058985A /* RealmSwift.framework in Frameworks */,
-				A0F21A2F2020CEC30058985A /* Realm.framework in Frameworks */,
+				A05097E120D165230019872A /* RealmSwift.framework in Frameworks */,
+				A05097E220D165230019872A /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0F21A002020B8DB0058985A = {
+		A05097DE20D165230019872A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0F21A0C2020B8DB0058985A /* RealmJSON */,
-				A0F21A0B2020B8DB0058985A /* Products */,
-				A0F21A2D2020CEC20058985A /* Frameworks */,
+				A05097E020D165230019872A /* Realm.framework */,
+				A05097DF20D165230019872A /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B1A4641F3380D7003155C1 = {
+			isa = PBXGroup;
+			children = (
+				A0B1A4701F3380D7003155C1 /* RealmJSON */,
+				A0B1A46F1F3380D7003155C1 /* Products */,
+				A05097DE20D165230019872A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A0F21A0B2020B8DB0058985A /* Products */ = {
+		A0B1A46F1F3380D7003155C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0F21A0A2020B8DB0058985A /* RealmJSON.framework */,
+				A0B1A46E1F3380D7003155C1 /* RealmJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0F21A0C2020B8DB0058985A /* RealmJSON */ = {
+		A0B1A4701F3380D7003155C1 /* RealmJSON */ = {
 			isa = PBXGroup;
 			children = (
-				A0F21A282020B96B0058985A /* RLMObject+Copying.h */,
-				A0F21A262020B96A0058985A /* RLMObject+Copying.m */,
-				A0F21A252020B96A0058985A /* RLMObject+JSON.h */,
-				A0F21A272020B96A0058985A /* RLMObject+JSON.m */,
-				A0F21A172020B9610058985A /* MCJSONDateTransformer.h */,
-				A0F21A162020B9610058985A /* MCJSONDateTransformer.m */,
-				A0F21A152020B9610058985A /* MCJSONNonNullStringTransformer.h */,
-				A0F21A192020B9620058985A /* MCJSONNonNullStringTransformer.m */,
-				A0F21A1C2020B9620058985A /* MCJSONPrimaryKeyTransformer.h */,
-				A0F21A182020B9610058985A /* MCJSONPrimaryKeyTransformer.m */,
-				A0F21A1A2020B9620058985A /* MCJSONValueTransformer.h */,
-				A0F21A1B2020B9620058985A /* MCJSONValueTransformer.m */,
-				A0F21A0D2020B8DB0058985A /* RealmJSON.h */,
-				A0F21A0E2020B8DB0058985A /* Info.plist */,
+				A0B1A4791F33813A003155C1 /* MCJSONDateTransformer.h */,
+				A0B1A47A1F33813A003155C1 /* MCJSONDateTransformer.m */,
+				A0B1A47B1F33813A003155C1 /* MCJSONNonNullStringTransformer.h */,
+				A0B1A47C1F33813A003155C1 /* MCJSONNonNullStringTransformer.m */,
+				A0B1A47D1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h */,
+				A0B1A47E1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m */,
+				A0B1A47F1F33813A003155C1 /* MCJSONValueTransformer.h */,
+				A0B1A4801F33813A003155C1 /* MCJSONValueTransformer.m */,
+				A0B1A4811F33813A003155C1 /* RLMObject+Copying.h */,
+				A0B1A4821F33813A003155C1 /* RLMObject+Copying.m */,
+				A0B1A4831F33813A003155C1 /* RLMObject+JSON.h */,
+				A0B1A4841F33813A003155C1 /* RLMObject+JSON.m */,
+				A0B1A4711F3380D7003155C1 /* RealmJSON.h */,
+				A0B1A4721F3380D7003155C1 /* Info.plist */,
 			);
 			path = RealmJSON;
-			sourceTree = "<group>";
-		};
-		A0F21A2D2020CEC20058985A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A0F21A302020CED10058985A /* RealmSwift.framework */,
-				A0F21A2E2020CEC30058985A /* Realm.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A0F21A072020B8DB0058985A /* Headers */ = {
+		A0B1A46B1F3380D7003155C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F21A2C2020B96B0058985A /* RLMObject+Copying.h in Headers */,
-				A0F21A1D2020B9620058985A /* MCJSONNonNullStringTransformer.h in Headers */,
-				A0F21A222020B9620058985A /* MCJSONValueTransformer.h in Headers */,
-				A0F21A242020B9620058985A /* MCJSONPrimaryKeyTransformer.h in Headers */,
-				A0F21A1F2020B9620058985A /* MCJSONDateTransformer.h in Headers */,
-				A0F21A292020B96B0058985A /* RLMObject+JSON.h in Headers */,
-				A0F21A0F2020B8DB0058985A /* RealmJSON.h in Headers */,
+				A0B1A4851F33813A003155C1 /* MCJSONDateTransformer.h in Headers */,
+				A0B1A4891F33813A003155C1 /* MCJSONPrimaryKeyTransformer.h in Headers */,
+				A0B1A48D1F33813A003155C1 /* RLMObject+Copying.h in Headers */,
+				A0B1A48F1F33813A003155C1 /* RLMObject+JSON.h in Headers */,
+				A0B1A48B1F33813A003155C1 /* MCJSONValueTransformer.h in Headers */,
+				A0B1A4871F33813A003155C1 /* MCJSONNonNullStringTransformer.h in Headers */,
+				A0B1A4731F3380D7003155C1 /* RealmJSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A0F21A092020B8DB0058985A /* RealmJSON */ = {
+		A0B1A46D1F3380D7003155C1 /* RealmJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0F21A122020B8DB0058985A /* Build configuration list for PBXNativeTarget "RealmJSON" */;
+			buildConfigurationList = A0B1A4761F3380D7003155C1 /* Build configuration list for PBXNativeTarget "RealmJSON" */;
 			buildPhases = (
-				A0F21A052020B8DB0058985A /* Sources */,
-				A0F21A062020B8DB0058985A /* Frameworks */,
-				A0F21A072020B8DB0058985A /* Headers */,
-				A0F21A082020B8DB0058985A /* Resources */,
-				A0F21A322020CEF50058985A /* Carthage */,
+				A0B1A4691F3380D7003155C1 /* Sources */,
+				A0B1A46A1F3380D7003155C1 /* Frameworks */,
+				A0B1A46B1F3380D7003155C1 /* Headers */,
+				A0B1A46C1F3380D7003155C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -140,43 +139,43 @@
 			);
 			name = RealmJSON;
 			productName = RealmJSON;
-			productReference = A0F21A0A2020B8DB0058985A /* RealmJSON.framework */;
+			productReference = A0B1A46E1F3380D7003155C1 /* RealmJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0F21A012020B8DB0058985A /* Project object */ = {
+		A0B1A4651F3380D7003155C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Beekeeper AG";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andreas Kompanez";
 				TargetAttributes = {
-					A0F21A092020B8DB0058985A = {
-						CreatedOnToolsVersion = 9.2;
+					A0B1A46D1F3380D7003155C1 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A0F21A042020B8DB0058985A /* Build configuration list for PBXProject "RealmJSON" */;
-			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = en;
+			buildConfigurationList = A0B1A4681F3380D7003155C1 /* Build configuration list for PBXProject "RealmJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A0F21A002020B8DB0058985A;
-			productRefGroup = A0F21A0B2020B8DB0058985A /* Products */;
+			mainGroup = A0B1A4641F3380D7003155C1;
+			productRefGroup = A0B1A46F1F3380D7003155C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0F21A092020B8DB0058985A /* RealmJSON */,
+				A0B1A46D1F3380D7003155C1 /* RealmJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0F21A082020B8DB0058985A /* Resources */ = {
+		A0B1A46C1F3380D7003155C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -185,57 +184,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A0F21A322020CEF50058985A /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A0F21A052020B8DB0058985A /* Sources */ = {
+		A0B1A4691F3380D7003155C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F21A2A2020B96B0058985A /* RLMObject+Copying.m in Sources */,
-				A0F21A212020B9620058985A /* MCJSONNonNullStringTransformer.m in Sources */,
-				A0F21A2B2020B96B0058985A /* RLMObject+JSON.m in Sources */,
-				A0F21A232020B9620058985A /* MCJSONValueTransformer.m in Sources */,
-				A0F21A202020B9620058985A /* MCJSONPrimaryKeyTransformer.m in Sources */,
-				A0F21A1E2020B9620058985A /* MCJSONDateTransformer.m in Sources */,
+				A0B1A48E1F33813A003155C1 /* RLMObject+Copying.m in Sources */,
+				A0B1A4881F33813A003155C1 /* MCJSONNonNullStringTransformer.m in Sources */,
+				A0B1A4901F33813A003155C1 /* RLMObject+JSON.m in Sources */,
+				A0B1A48C1F33813A003155C1 /* MCJSONValueTransformer.m in Sources */,
+				A0B1A48A1F33813A003155C1 /* MCJSONPrimaryKeyTransformer.m in Sources */,
+				A0B1A4861F33813A003155C1 /* MCJSONDateTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A0F21A102020B8DB0058985A /* Debug */ = {
+		A0B1A4741F3380D7003155C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -243,22 +219,17 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -272,28 +243,27 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A0F21A112020B8DB0058985A /* Release */ = {
+		A0B1A4751F3380D7003155C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -301,22 +271,17 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -324,83 +289,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A0F21A132020B8DB0058985A /* Debug */ = {
+		A0B1A4771F3380D7003155C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RealmJSON/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.beekeeper.RealmJSON;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A0F21A142020B8DB0058985A /* Release */ = {
+		A0B1A4781F3380D7003155C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RealmJSON/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.beekeeper.RealmJSON;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0F21A042020B8DB0058985A /* Build configuration list for PBXProject "RealmJSON" */ = {
+		A0B1A4681F3380D7003155C1 /* Build configuration list for PBXProject "RealmJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0F21A102020B8DB0058985A /* Debug */,
-				A0F21A112020B8DB0058985A /* Release */,
+				A0B1A4741F3380D7003155C1 /* Debug */,
+				A0B1A4751F3380D7003155C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0F21A122020B8DB0058985A /* Build configuration list for PBXNativeTarget "RealmJSON" */ = {
+		A0B1A4761F3380D7003155C1 /* Build configuration list for PBXNativeTarget "RealmJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0F21A132020B8DB0058985A /* Debug */,
-				A0F21A142020B8DB0058985A /* Release */,
+				A0B1A4771F3380D7003155C1 /* Debug */,
+				A0B1A4781F3380D7003155C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0F21A012020B8DB0058985A /* Project object */;
+	rootObject = A0B1A4651F3380D7003155C1 /* Project object */;
 }
