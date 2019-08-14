@@ -9,7 +9,9 @@ A concise [Mantle](https://github.com/Mantle/Mantle)-like way of working with [R
 ## Create a new version (Beekeeper related)
 Apply your changes, and as soon as you are done, create a new binary framework version. The commands are:
 ```
-git checkout carthage
+# Make sure you have all the dependencies 
+carthage bootstrap --platform iOS --cache-builds
+
 # Afterwards build a new version of the this framework
 carthage build --no-skip-current --platform iOS
 # Remove all *.framework and *.framework.dSYM inside the Carthage/Build/iOS folder
@@ -18,6 +20,7 @@ rm Carthage/Build/iOS/Realm.framework
 rm Carthage/Build/iOS/Realm.framework.dSYM
 rm Carthage/Build/iOS/RealmSwift.framework
 rm Carthage/Build/iOS/RealmSwift.framework.dSYM
+
 # Package
 carthage archive RealmJSON
 ```
