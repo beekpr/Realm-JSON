@@ -16,10 +16,10 @@ carthage bootstrap --platform iOS --cache-builds
 carthage build --no-skip-current --platform iOS
 # Remove all *.framework and *.framework.dSYM inside the Carthage/Build/iOS folder
 # TODO: Automate this
-rm Carthage/Build/iOS/Realm.framework
-rm Carthage/Build/iOS/Realm.framework.dSYM
-rm Carthage/Build/iOS/RealmSwift.framework
-rm Carthage/Build/iOS/RealmSwift.framework.dSYM
+rm -rf Carthage/Build/iOS/Realm.framework
+rm -rf Carthage/Build/iOS/Realm.framework.dSYM
+rm -rf Carthage/Build/iOS/RealmSwift.framework
+rm -rf Carthage/Build/iOS/RealmSwift.framework.dSYM
 
 # Package
 carthage archive RealmJSON
