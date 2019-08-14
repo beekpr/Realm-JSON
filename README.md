@@ -13,7 +13,7 @@ Apply your changes, and as soon as you are done, create a new binary framework v
 carthage update --platform iOS --cache-builds
 
 # Afterwards build a new version of the this framework
-carthage build --no-skip-current --platform iOS
+carthage build --no-skip-current --platform iOS --cache-builds
 
 # Remove all *.framework and *.framework.dSYM inside the Carthage/Build/iOS folder
 ./remove-dependencies.sh
